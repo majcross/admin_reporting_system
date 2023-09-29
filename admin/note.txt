@@ -1,0 +1,134 @@
+CREATE TABLE `perform` (
+  `id` int(11) NOT NULL,
+  `deposit_weekly` int(11) NOT NULL,
+  `expected_repayment_weekly` int(11) NOT NULL,
+  `total_deposit_monthly` int(11) NOT NULL,
+  `expected_repayment_monthly` int(11) NOT NULL,
+  `reg` int(11) NOT NULL,
+  `incomes` int(11) NOT NULL,
+  `def` int(11) NOT NULL,
+  `recovery` int(11) NOT NULL,
+  `total_collection` int(11) NOT NULL,
+  `banked` int(11) NOT NULL,
+  `cash_hand` int(11) NOT NULL,
+  `previous_cash_hand` int(11) NOT NULL,
+  `variances` int(11) NOT NULL,
+  `loan_disbursement` int(11) NOT NULL,
+  `no_disbursement` int(11) NOT NULL,
+  `no_payment` int(11) NOT NULL,
+  `loan_disbursement` int(11) NOT NULL,
+  `total_repayment` int(11) NOT NULL,
+  `gross_loan` int(11) NOT NULL,
+  `case_load` int(11) NOT NULL,
+  `savings` int(11) NOT NULL,
+  `no_sav_withdrawal` int(11) NOT NULL,
+  `savings_return_quit` int(11) NOT NULL,
+  `no_savings_return_quit` int(11) NOT NULL,
+  `deposit_portfolio` int(11) NOT NULL,
+  `no_registration` int(11) NOT NULL,
+  `no_savers` int(11) NOT NULL,
+  `total_def` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+  CREATE TABLE `base` (
+  `id` int(11) NOT NULL,
+  `loan_portfolio` int(11) NOT NULL,
+  `deposit_portfolio` int(11) NOT NULL,
+  `default` int(11) NOT NULL,
+  `case_load` int(11) NOT NULL,
+  `no_savers` int(11) NOT NULL,
+  `dormant_value` int(11) NOT NULL,
+  `no_dormant` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+<td><input type="number" name="total_deposit_week" id="total_deposit_week"></td>
+<td><input type="number" name="expected_repayment_week" id="expected_repayment_week"></td>
+<td><input type="number" name="total_deposit_monthly" id="total_deposit_monthly"></td>
+<td><input type="number" name="expected_repayment_month" id="expected_repayment_month"></td>
+<td><input type="number" name="reg" id="reg"></td>
+<td><input type="number" name="incomes" id="incomes"></td>
+<td><input type="number" name="def" id="def"></td>
+<td><input type="number" name="recovery" id="recovery"></td>
+<td><input type="number" name="total_collection" id="total_collection"></td>
+<td><input type="number" name="banked" id="banked"></td>
+<td><input type="number" name="cash_hand" id="cash_hand"></td>
+<td><input type="number" name="previous_cash_hand" id="previous_cash_hand"></td>
+<td><input type="number" name="variance" id="variance"></td>
+<td><input type="number" name="loan_disbursement" id="loan_disbursement"></td>
+<td><input type="number" name="no_disbursement" id="no_disbursement"></td>
+<td><input type="number" name="no_full_payment" id="no_full_payment"></td>
+<td><input type="number" name="loan_disbursement_charge" id="loan_disbursement_charge"></td>
+<td><input type="number" name="total_repayment" id="total_repayment"></td>
+<td><input type="number" name="gross_loan" id="gross_loan"></td>
+<td><input type="number" name="case_load" id="case_load"></td>
+<td><input type="number" name="savings_withdrawal" id="savings_withdrawal"></td>
+<td><input type="number" name="no_savings_withdrawal" id="no_savings_withdrawal"></td>
+<td><input type="number" name="savings_return_quit" id="savings_return_quit"></td>
+<td><input type="number" name="no_savings_return_quit" id="no_savings_return_quit"></td>
+<td><input type="number" name="deposit_portfolio" id="deposit_portfolio"></td>
+<td><input type="number" name="no_registration" id="no_registration"></td>
+<td><input type="number" name="no_savers" id="no_savers"></td>
+<td><input type="number" name="total_default" id="total_default"></td>
+<td><input type="number" name="total_collection" id="total_collection"></td>
+
+
+total_deposit_week
+expected_repayment_week
+total_deposit_monthly
+expected_repayment_month
+reg
+incomes
+def
+recovery
+total_collection
+banked
+cash_hand
+previous_cash_hand
+variance
+loan_disbursement
+no_disbursement
+no_full_payment
+loan_disbursement_charge
+total_repayment
+gross_loan
+case_load
+savings_withdrawal
+no_savings_withdrawal
+savings_return_quit
+no_savings_return_quit
+deposit_portfolio
+no_registration
+no_savers
+total_default
+
+
+
+value="<?php total_deposit_week ?>"
+value="expected_repayment_week"
+value="total_deposit_monthly"
+value="expected_repayment_month"
+value="reg"
+value="incomes"
+value="def"
+recovery
+total_collection
+banked
+cash_hand
+previous_cash_hand
+variance
+loan_disbursement
+no_disbursement
+no_full_payment
+loan_disbursement_charge
+total_repayment
+gross_loan
+case_load
+savings_withdrawal
+no_savings_withdrawal
+savings_return_quit
+no_savings_return_quit
+deposit_portfolio
+no_registration
+no_savers
+total_default
